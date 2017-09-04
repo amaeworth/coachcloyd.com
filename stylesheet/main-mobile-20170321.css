@@ -1,0 +1,82 @@
+@font-face {
+    font-family: 'droidserif';
+    src: url('../fonts/droidserif.ttf') format('ttf');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+  font-family: 'raleway';
+  src: url('../fonts/raleway-regular.ttf') format('ttf');
+  font-weight: normal;
+  font-style: normal;
+}
+
+body {
+  min-width:100px;
+  /*font-family: 'droidserif';*/
+  /*background: url('../img/background.png');*/
+  /*width: 100%;*/
+  /*background-size: cover;*/
+  /*float:left;*/
+}
+
+/*.title {
+  font-size: 5em;
+  width: 100%;
+  text-align:center;
+  word-wrap: break-word;
+}
+
+.title h1 {
+  color: #ebe8e8;
+  width: 100%;
+  text-align: center;
+}*/
+
+/*nav {*/
+  /*font-family: 'raleway';*/
+  /*font-size:4em;*/
+  /*background: #003b6a;*/
+  /*width: 100%;*/
+  /*clear:both;*/
+  /*padding-top: 30px;*/
+  /*padding-bottom: 30px;*/
+/*}*/
+
+/*nav ul li {
+    display: block;
+    padding: 10px;
+    text-align: center;
+}*/
+
+nav a{
+  text-align: center;
+  color: #d2aa13;
+  text-decoration: none;
+  padding: 10px 10px;
+  font-size: 4em;
+  display: block;
+}
+
+/*.court-image {
+  margin-left: -350px;
+  position: absolute;
+  width: 800px;
+  bottom: 0px;
+  left:50%;
+  clear:both;
+}
+
+.court-image img {
+  width: 100%;
+  clear:both;
+}*/
+
+@media all and (min-width:768px){
+  /*tablet code*/
+  nav a {
+    font-size: 1em;
+    /*padding-top: 10px;
+    padding-bottom: 10px;*/
+  }
+}
